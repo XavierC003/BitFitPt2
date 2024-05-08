@@ -1,5 +1,13 @@
 package com.example.bitfitpt2
 
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.launch
+
 @Suppress("DEPRECATION")
 class DetailActivity : AppCompatActivity() {
     private lateinit var foodTextView: EditText
